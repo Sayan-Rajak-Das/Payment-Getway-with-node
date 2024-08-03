@@ -21,7 +21,7 @@ function Product() {
     console.log(order);
 
     var options = {
-      key: "rzp_test_ghTeekIY3ZvfG3", // Enter the Key ID generated from the Dashboard
+      key: process.env.PORT, // Enter the Key ID generated from the Dashboard
       amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
       currency,
       name: "Acme Corp", //your business name
